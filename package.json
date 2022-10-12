@@ -1,0 +1,23 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i src/main.css -o public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuma872/TestProject.git"
+  },
+  "author": "Yuma872",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuma872/TestProject/issues"
+  },
+  "homepage": "https://github.com/yuma872/TestProject#readme",
+  "devDependencies": {
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  }
+}
